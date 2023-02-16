@@ -1,11 +1,11 @@
-export interface CountriesTS {
+export interface CountryItemTS {
   code: string;
   currency: string;
   emoji: string;
   name: string;
   capital: string;
   phone: string;
-  langiage: [
+  language: [
     {
       name: string;
       native: string;
@@ -18,6 +18,5 @@ export interface CountriesTS {
   continent: {
     name: string;
   };
-
 
 }
