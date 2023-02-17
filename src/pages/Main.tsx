@@ -114,7 +114,7 @@ const Main = () => {
                 type="text"
                 onChange={(e) => {
                   setSearch(e.target.value);
-                  getSearchData(e.target.value);
+                  getSearchData(e.target.value.toUpperCase());
                 }}
                 className="form-control w-100 mt-3 mb-5 searchInput"
                 placeholder="Search by country code"
