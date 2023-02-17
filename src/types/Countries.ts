@@ -5,19 +5,19 @@ export interface CountriesTS {
   name: string;
   capital: string;
   phone: string;
-  langiage: [
+  languages: [
     {
       name: string;
       native: string;
+      rtl: boolean;
     },
     {
       name: string;
       native: string;
+      rtl: boolean;
     }
   ];
   continent: {
     name: string;
   };
-
-
 }

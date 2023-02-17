@@ -1,0 +1,17 @@
+.card {
+  width: 350px;
+  margin: 20px 0 20px 0;
+}
+.countryBottonInfo {
+  display: flex;
+  align-items: center;
+}
+.countryBottonInfo .bottonInfoWrapp {
+  margin: 0 20px 0 20px;
+}
+.bottonInfoWrapp i {
+  margin: 0 2px 0 2px;
+}
+strong {
+  margin-right: 5px;
+}
